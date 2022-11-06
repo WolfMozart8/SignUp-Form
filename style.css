@@ -1,23 +1,69 @@
 * {
     outline: 1px solid red;
 }
+html {
+    font-size: 62.5%; /*"Hack" 1rem = 1px*/
+
+}
 body {
     background-color: gray;
+    font-size: 1.6rem;
 }
 .main {
     display: flex;
 }
-.form {
+h2 {
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Poor Story','Courier New', Courier, monospace;
+
+}
+.form-container {
     background-color: aliceblue;
+    flex: auto;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header img {
+    width: auto;
+    height: 95px;
 }
 .header h1{
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 7rem;
     margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Poor Story','Courier New', Courier, monospace;
 }
 .container {
     margin: 0 auto;
     max-width: 1200px;
     max-height: 100vh;
 
+}
+.mail-pass-tel > div, 
+.input-name > div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: auto;
+    font-size: 2.4rem;
+}
+.mail-pass-tel, 
+.input-name  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 100px;
+    font-family: 'Roboto','Times New Roman', Times, serif;
+}
+.form-header {
+    margin-bottom: 40px;
+}
+input {
+    
+}
+label {
+    margin-bottom: 15px;
 }

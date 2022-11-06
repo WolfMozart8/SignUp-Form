@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
     <title>Resgistration</title>
 </head>
@@ -11,15 +15,39 @@
     <main class="container">
         <div class="header">
             <h1>Cool Cats Club</h1>
+            <img src="./cool.png" alt="cool cat logo">
         </div>
         <div class="main">
          <div class="img">
             <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="Cool cat with sunglasses">
         </div>
-        <div class="form">
-
-        </div>   
-        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <h2>Register Your Cat</h2>
+            </div>
+            <form action="#">
+                <div class="form">
+                    <div class="input-name">
+                    <div><label for="yourname">Your name</label>
+                    <input id="yourname" type="text"></div>
+                    <div>   <label for="catname">Your Cat name</label>
+                    <input id="catname" type="text"></div>
+                    </div><!--.input-name-->
+                <div class="mail-pass-tel">
+                    <div><label for="mail">Your Email</label>
+                        <input id="mail" type="mail"></div>
+                    <div><label for="tel">Your Phone Number</label>
+                        <input id="tel" type="tel"></div>
+                    <div><label for="password">Enter a password</label>
+                        <input id="password" type="password"></div>
+                    <div><label for="password-re">Confirm password</label>
+                        <input id="password-re" type="password"></div>
+                </div>  <!--.mail...etc--> 
+                </div> <!--.form-->
+                <button type="submit">Register</button>
+            </form>
+        </div> <!--.form-container-->  
+        </div><!--.main-->
         
     </main>
 </body>
