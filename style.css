@@ -1,0 +1,23 @@
+* {
+    outline: 1px solid red;
+}
+body {
+    background-color: gray;
+}
+.main {
+    display: flex;
+}
+.form {
+    background-color: aliceblue;
+}
+.header h1{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 10px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    max-height: 100vh;
+
+}
